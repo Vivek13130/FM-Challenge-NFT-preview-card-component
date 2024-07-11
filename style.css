@@ -161,8 +161,18 @@ footer span{
 
 .attribution{
       position: absolute;
-      bottom: 3rem;
-      z-index: -1;
+      bottom: 0.5rem;
+      color: white;
 }
 
+.attribution a{
+      color: var(--cyan);
+      padding: 0 0.2rem;
+      margin: 0 0.2rem;
+}
 
+.attribution a:hover{
+      cursor: pointer;
+      text-decoration: none;
+      outline: 2px solid var(--cyan);
+}
